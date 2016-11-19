@@ -1,0 +1,40 @@
+{
+  "title": "customers",
+  "type": "object",
+  "required": ["firstName", "lastName", "photo", "sex", "email", "phone", "birth", "timeZone", "country"],
+  "properties": {
+    "id": {
+      "type": "number",
+      "minimum": 1,
+      "uniqueItem": true
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "string"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "uniqueItem": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "birth": {
+      "type": "string"
+    },
+    "timeZone": {
+      "type": "number"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

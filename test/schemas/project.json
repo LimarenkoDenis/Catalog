@@ -1,0 +1,36 @@
+{
+  "title": "project",
+  "type": "object",
+  "required": ["title", "description", "status", "price", "version", "start", "deadline", "progress"],
+  "properties": {
+    "id": {
+      "type": "number",
+      "minimum": 1,
+      "uniqueItem": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "version": {
+      "type": "number"
+    },
+    "start": {
+      "type": "string"
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "progress": {
+      "type": "number"
+    }
+  }
+}

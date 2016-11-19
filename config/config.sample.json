@@ -1,0 +1,24 @@
+{
+  "production": {
+    "postgres": {
+      "uri": "localhost/test"
+    }
+  },
+  "test": {
+    "postgres": {
+      "uri": "localhost/test"
+    }
+  },
+  "development": {
+    "app": {
+      "port": 3000
+    },
+    "postgres": {
+      "username": "postgres",
+      "password": "",
+      "database": "database",
+      "host": "localhost",
+      "dialect": "postgres"
+    }
+  }
+}
